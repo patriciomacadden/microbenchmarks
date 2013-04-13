@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+
+gem 'cuba', github: 'soveran/cuba'
+gem 'thin'
