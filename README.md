@@ -14,6 +14,15 @@ Benchmarking microframeworks.
 * Thin web server
 * ab - Apache HTTP server benchmarking tool
 
+## Running the applications
+
+There is a `config.ru` file in each directory with an application. Simply run:
+
+```bash
+$ bundle install
+$ bundle exec rackup
+```
+
 ## Results
 
 ### 50 concurrent requests, 1_000 requests
