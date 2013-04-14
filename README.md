@@ -8,6 +8,8 @@ Benchmarking microframeworks.
 * [hobbit](https://github.com/patriciomacadden/hobbit)
 * [sinatra](https://github.com/sinatra/sinatra)
 
+And of course, [rack](https://github.com/rack/rack) as the reference.
+
 ## Platform
 
 * MacBook Air (Intel Core i5, 4GB RAM)
@@ -36,6 +38,11 @@ $ ab -c 50 -n 1000 http://localhost:9292/
     <th>Microframework</th>
     <th>Request per second</th>
     <th>Time per request</th>
+  </tr>
+  <tr>
+    <th>Rack</th>
+    <th>1392.34 [#/sec] (mean)</th>
+    <th>35.911 [ms] (mean)</th>
   </tr>
   <tr>
     <td>Cuba</td>
@@ -67,6 +74,11 @@ $ ab -c 50 -n 10000 http://localhost:9292/
     <th>Time per request</th>
   </tr>
   <tr>
+    <th>Rack</th>
+    <th>1508.23 [#/sec] (mean)</th>
+    <th>33.151 [ms] (mean)</th>
+  </tr>
+  <tr>
     <td>Cuba</td>
     <td>1159.09 [#/sec] (mean)</td>
     <td>43.137 [ms] (mean)</td>
@@ -96,6 +108,11 @@ $ ab -c 100 -n 1000 http://localhost:9292/
     <th>Time per request</th>
   </tr>
   <tr>
+    <th>Rack</th>
+    <th>1351.94 [#/sec] (mean)</th>
+    <th>73.968 [ms] (mean)</th>
+  </tr>
+  <tr>
     <td>Cuba</td>
     <td>1130.31 [#/sec] (mean)</td>
     <td>88.472 [ms] (mean)</td>
@@ -123,6 +140,11 @@ $ ab -c 100 -n 10000 http://localhost:9292/
     <th>Microframework</th>
     <th>Request per second</th>
     <th>Time per request</th>
+  </tr>
+  <tr>
+    <th>Rack</th>
+    <th>1491.28 [#/sec] (mean)</th>
+    <th>67.056 [ms] (mean)</th>
   </tr>
   <tr>
     <td>Cuba</td>
