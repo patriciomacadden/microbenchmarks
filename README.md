@@ -162,3 +162,15 @@ $ ab -c 100 -n 10000 http://localhost:9292/
     <td>104.086 [ms] (mean)</td>
   </tr>
 </table>
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+## License
+
+See the [LICENSE](https://github.com/patriciomacadden/microbenchmarks/blob/master/LICENSE).
