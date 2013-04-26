@@ -51,8 +51,8 @@ $ ab -c 50 -n 1000 http://localhost:9292/
   </tr>
   <tr>
     <td>Hobbit</td>
-    <td>1202.97 [#/sec] (mean)</td>
-    <td>41.564 [ms] (mean)</td>
+    <td>1376.90 [#/sec] (mean)</td>
+    <td>36.314 [ms] (mean)</td>
   </tr>
   <tr>
     <td>Sinatra</td>
@@ -85,8 +85,8 @@ $ ab -c 50 -n 10000 http://localhost:9292/
   </tr>
   <tr>
     <td>Hobbit</td>
-    <td>1233.78 [#/sec] (mean)</td>
-    <td>40.526 [ms] (mean)</td>
+    <td>1447.53 [#/sec] (mean)</td>
+    <td>34.542 [ms] (mean)</td>
   </tr>
   <tr>
     <td>Sinatra</td>
@@ -119,8 +119,8 @@ $ ab -c 100 -n 1000 http://localhost:9292/
   </tr>
   <tr>
     <td>Hobbit</td>
-    <td>1191.62 [#/sec] (mean)</td>
-    <td>83.920 [ms] (mean)</td>
+    <td>1325.77 [#/sec] (mean)</td>
+    <td>75.428 [ms] (mean)</td>
   </tr>
   <tr>
     <td>Sinatra</td>
@@ -153,8 +153,8 @@ $ ab -c 100 -n 10000 http://localhost:9292/
   </tr>
   <tr>
     <td>Hobbit</td>
-    <td>1200.07 [#/sec] (mean)</td>
-    <td>83.328 [ms] (mean)</td>
+    <td>1424.99 [#/sec] (mean)</td>
+    <td>70.176 [ms] (mean)</td>
   </tr>
   <tr>
     <td>Sinatra</td>
