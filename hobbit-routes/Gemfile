@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+
+gem 'hobbit', github: 'patriciomacadden/hobbit'
+gem 'hobbit-routes', github: 'patriciomacadden/hobbit-routes', require: 'hobbit/routes'
+gem 'thin'
